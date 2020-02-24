@@ -1,0 +1,98 @@
+.page {
+    display: flex;
+    flex-direction: row;
+}
+  
+.sidebar {
+    background-color: #96BBBB;
+    padding: 20px;
+    height: 100vh;
+}
+
+.main {
+    width: 80%;
+    height: 100vh;
+    padding: 40px;
+    padding-top: 0px;
+    overflow-y: auto;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.main h1 {
+    font-family: 'Yeseva One';
+    font-weight: bold;
+    color: #96BBBB;
+}
+ 
+p {
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+h3, h4 {
+    font-family: 'Roboto';
+}
+
+html, body {
+    height: 100%;
+    /* scroll-behavior: smooth; */
+}
+
+.email, .social-media, .documents {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.sidebar-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar-component h1 {
+    font-size: 40px;
+}
+
+.sidebar-component ul {
+    font-family: 'Yeseva One';
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    font-size: 25px;
+}
+
+.sidebar-component h1 {
+    font-family: 'Yeseva One';
+}
+
+.main ul {
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.main p {
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+a, a:hover {
+    color: black !important;
+}
+
+.is-active {
+    color: green!important;
+    font-weight: bold!important;
+  }
+
+.profile-pic {
+    width: 250px;
+    padding: 20px;
+}
+
+

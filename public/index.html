@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/style.css" />
+    <!-- <link rel="stylesheet" href="%PUBLIC_URL%/icons.css" /> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Julius+Sans+One|Roboto|Noto+Serif+TC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Julius+Sans+One|Noto+Serif+TC|Roboto:300,400,700|Yeseva+One&display=swap" rel="stylesheet">
+    
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
+    <script>
+      $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(a) {
+        a.preventDefault();
+        $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').removeClass('is-active');
+        $(this).addClass('is-active');
+      });
+    </script>
+  </body>
+</html>
