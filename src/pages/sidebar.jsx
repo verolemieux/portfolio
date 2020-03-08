@@ -14,7 +14,7 @@ export default class Sidebar extends Component {
               <p className="email">veronyque.lemieux@gmail.com</p>
             </div>
             <div>
-              <p className="documents"><a href="../../resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a> | <a href="" target="_blank" rel="noopener noreferrer">Cover Letter</a></p>
+              <p className="documents"><a href="../../resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a> | <a href="../../cover_letter.pdf" target="_blank" rel="noopener noreferrer">Cover Letter</a></p>
             </div>
             <div>
               <ul>
