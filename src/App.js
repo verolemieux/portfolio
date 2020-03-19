@@ -13,12 +13,12 @@ class App extends Component {
         <div className="sidebar">
           <SideBar></SideBar>
         </div>
-        <div className="main">
+        <section className="main">
           <AboutMe></AboutMe>
           <Education></Education>
           <Work></Work>
           <Projects></Projects>
-        </div>
+        </section>
       </div>
     )
   }

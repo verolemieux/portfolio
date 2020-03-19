@@ -33,6 +33,10 @@ p {
     font-weight: 300;
 }
 
+.sub {
+    font-weight: 300;
+}
+
 h3, h4 {
     font-family: 'Roboto';
 }
@@ -93,6 +97,27 @@ a, a:hover {
 .profile-pic {
     width: 250px;
     padding: 20px;
+}
+
+.btn {
+    margin-bottom: 15px;
+}
+
+.imgContainer {
+    float: left;
+    width: 33%;
+}
+
+img {
+    padding-top: 10px;
+}
+
+.imgContainer p {
+    text-align: center;
+}
+
+.second {
+    margin-left: 5px;
 }
 
 

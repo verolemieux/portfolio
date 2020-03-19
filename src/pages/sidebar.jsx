@@ -5,10 +5,8 @@ export default class Sidebar extends Component {
     return (
       <div>
         <div className="sidebar-component">
-          {/* <nav href="#navbar" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav> */}
           <aside>
             <div>
-              {/* <div style={{backgroundImage: 'url(images/about.jpg)'}} /> */}
               <img className="profile-pic" src="../../profile_pic.png" alt="My Profile Photo"></img>
               <h1>Veronyque Lemieux</h1>
               <p className="email">veronyque.lemieux@gmail.com</p>
