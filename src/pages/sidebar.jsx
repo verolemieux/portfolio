@@ -11,6 +11,7 @@ export default class Sidebar extends Component {
               <h1>Veronyque Lemieux</h1>
               <p className="email">veronyque.lemieux@gmail.com</p>
             </div>
+            <img className="logo" src="../../succulent-logo.png"></img>
             <div>
               <p className="documents"><a href="../../resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a> | <a href="../../cover_letter.pdf" target="_blank" rel="noopener noreferrer">Cover Letter</a></p>
             </div>
