@@ -15,6 +15,9 @@ export default class AboutMe extends Component {
             <p>One of the reasons I am so fond of the IT industry is it's constantly changing and evolving nature. With new technologies and trends appearing every day, it is crucial to evolve rapidly. As a self-learner, I thrive on the endless learning opportunities.</p>
             <p>Through constant professional and personal development, I will strive to become a knowledgeable and talented developer, specializing in web applications.</p>
           </section>
+          <div className="img-container-pages">
+            <img className="logo-divider" src="../../succulent-logo-divider-edited.png"></img>
+          </div>
         </div>
       )
     }

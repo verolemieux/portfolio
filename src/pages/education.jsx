@@ -26,6 +26,9 @@ export default class Education extends Component {
                         <Button variant="light"><a href="../../uw_academic_transcript.pdf" target="_blank" rel="noopener noreferrer">View Transcript</a></Button>
                 </ul>
           </section>
+          <div className="img-container-pages">
+            <img className="logo-divider" src="../../succulent-logo-divider-edited.png"></img>
+          </div>
         </div>
       )
     }

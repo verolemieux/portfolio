@@ -28,6 +28,9 @@ export default class Work extends Component {
                 </ul>
             </ul>
           </section>
+          <div className="img-container-pages">
+            <img className="logo-divider" src="../../succulent-logo-divider-edited.png"></img>
+          </div>
         </div>
       )
     }

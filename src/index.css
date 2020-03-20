@@ -12,3 +12,8 @@ code {
     monospace;
 }
 
+.img-container-pages {
+  display: flex;
+  justify-content: center;
+}
+

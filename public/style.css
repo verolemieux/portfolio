@@ -18,8 +18,8 @@
 }
 
 section {
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .main h1 {
@@ -125,5 +125,10 @@ img {
     padding-top: 0;
     margin-bottom: 16px;
 }
+
+.logo-divider {
+    width: 200px;
+}
+
 
 
