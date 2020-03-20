@@ -8,16 +8,15 @@ export default class Projects extends Component {
           <section data-section="projects">
             <h1>Projects</h1>
             <h4>CAPSTONE PROJECT</h4>
-            <Button variant="light"><a href="" target="_blank" rel="noopener noreferrer">View Application</a></Button>
             <Button className="second" variant="light"><a href="https://github.com/Sharpmanjt/capstone" target="_blank" rel="noopener noreferrer">GitHub Repo</a></Button>
             <ul>
               <li>Team Members</li>
                 <p>Jeremy Thibeau, Sergio Lombana, Ian Miranda, Saad Khan</p>
-              <li><a href="../../capstone_project_vision.pdf" target="_blank" rel="noopener noreferrer">Project Vision</a></li>
+              <li><span>Project Vision</span><a href="../../capstone_project_vision.pdf" target="_blank" rel="noopener noreferrer"><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>
                 <p>To design and develop a <b>Logistics Management System</b> aiming to streamline logistical processes and to provide a high-level overview of purchases and transfers
                 for <b><a href="http://www.copierexports.com/" target="_blank" rel="noopener noreferrer">Shiva Exports Ltd</a></b>. The system will package different tools to help employees 
-                with their daily challenges, such as importing assets, planning efficient routes and optimizing truck loads.</p>
-              <li><a href="../../capstone_high_level_requirements.pdf" target="_blank" rel="noopener noreferrer">Project Business Requirements</a></li>
+                with their daily challenges, such as importing assets, planning efficient routes, and optimizing truck loads.</p>
+              <li><span>Project Business Requirements</span><a href="../../capstone_high_level_requirements.pdf" target="_blank"><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>
                 <ul>
                   <li className="sub">Import assets and track their status</li>
                   <li className="sub">Plan routes for pickups and deliveries</li>
@@ -25,14 +24,14 @@ export default class Projects extends Component {
                   <li className="sub">View assets and routes in map overview</li>
                 </ul>
                 <p></p>
-              <li><a href="../../capstone_project_plan.pdf" target="_blank" rel="noopener noreferrer">Project Plan</a></li>
+              <li><span>Project Plan</span><a href="../../capstone_project_plan.pdf" target="_blank" rel="noopener noreferrer"><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>
                 <ul>
                   <li className="sub"><b>Documentation Phase:</b> September 24 - December 14, 2019</li>
                   <li className="sub"><b>Development Phase:</b> January 6 - March 8, 2020</li>
                   <li className="sub"><b>Testing Phase:</b> March 8 - March 17, 2020</li>
                 </ul>
                 <p></p>
-              <li><a href="../../capstone_requirements_analysis_design.pdf" target="_blank" rel="noopener noreferrer">Requirements Analysis & Design</a></li>
+              <li><span>Requirements Analysis & Design</span><a href="../../capstone_requirements_analysis_design.pdf" target="_blank" rel="noopener noreferrer"><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>
                 <ul>
                   <li className="sub">Add and edit assets</li>
                   <li className="sub">Add and edit vendors and asset locations</li>
@@ -41,7 +40,7 @@ export default class Projects extends Component {
                   <li className="sub">View placement of assets in truck container lists</li>
                 </ul>
                 <p></p>
-              <li><a href="../../capstone_wireframes.pdf" target="_blank" rel="noopener noreferrer">Wireframes</a></li>
+              <li><span>Wireframes</span><a href="../../capstone_wireframes.pdf" target="_blank" rel="noopener noreferrer"><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>
                 <div>
                   <div className="imgContainer">
                       <img src="../../wireframe_1.PNG" height="290"/>
@@ -72,18 +71,18 @@ export default class Projects extends Component {
                 </div>
               <li>Status Reports</li>
                 <ul>
-                  <li className="sub"><a href="../../capstone_status_report_1.pdf" target="_blank" rel="noopener noreferrer"><b>Status Report I</b></a></li>
+                  <li className="sub"><spane>Status Report I</spane><a href="../../capstone_status_report_1.pdf" target="_blank" rel="noopener noreferrer"><b></b><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>
                   <p>Created database script, implemented basic components of most UI pages, established routing between pages</p>
-                  <li className="sub"><a href="../../capstone_status_report_2.pdf" target="_blank" rel="noopener noreferrer"><b>Status Report II</b></a></li>
+                  <li className="sub"><span>Status Report II</span><a href="../../capstone_status_report_2.pdf" target="_blank" rel="noopener noreferrer"><b></b><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>
                   <p>Updated UI pages, developed CRUD operations for assets, implemented login process using JWT tokens, created map component using Open Street Maps API</p>
-                  <li className="sub"><a href="../../capstone_status_report_3.pdf" target="_blank" rel="noopener noreferrer"><b>Status Report III</b></a></li>
+                  <li className="sub"><span>Status Report III</span><a href="../../capstone_status_report_3.pdf" target="_blank" rel="noopener noreferrer"><b></b><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>
                   <p>Finalized UI pages, developed CRUD operations for routes, finished map component with overlay, implemented logs</p>
                 </ul>
                 <p></p>
               <li>System Implementations</li>
                 <ul>
-                  <li className="sub"><a href="../../capstone_system_implementation_1.pdf" target="_blank" rel="noopener noreferrer">System Implementation I</a></li>
-                  <li className="sub"><a href="" target="_blank" rel="noopener noreferrer">System Implementation II</a></li>                   
+                  <li className="sub"><span>System Implementation I</span><a href="../../capstone_system_implementation_1.pdf" target="_blank" rel="noopener noreferrer"><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>
+                  <li className="sub"><span>System Implementation II</span><a href="" target="_blank" rel="noopener noreferrer"><img className="external-link" src="../../external_link.svg" alt="Open pdf"></img></a></li>                   
                 </ul>
             </ul>
             <br></br>

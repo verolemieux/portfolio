@@ -12,14 +12,14 @@ export default class Work extends Component {
                 <ul>
                   <li className="sub"><b>Project:</b><i> Lychee</i> (In-House Time and Project Management Software)</li>
                   <li className="sub"><b>Technologies:</b> React, .NET, SQL</li>
-                  <li className="sub"><b>Tasks:</b> Implemented new features, fixed bugs</li>
+                  <li className="sub"><b>Tasks:</b> Implementing new features; Fixing bugs</li>
                 </ul>
                 <p></p>
                 <li>Part-Time - Sep 2019 to Apr 2020</li>
                 <ul>
                   <li className="sub"><b>Project:</b> Website Maintenance + <i>Lychee</i></li>
                   <li className="sub"><b>Technologies:</b> React, .NET, SQL</li>
-                  <li className="sub"><b>Tasks:</b> Implemented new features, fixed bugs, updated website content</li>
+                  <li className="sub"><b>Tasks:</b> Implementing new features; Fixed bugs; Updating website content</li>
                 </ul>
                 <p></p>
                 <li>Full-Time - Starting May 2020</li>
